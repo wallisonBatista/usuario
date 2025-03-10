@@ -29,7 +29,3 @@ public class Endereco {
     private String cep;
 
 }
-//    @OneToMany(cascade = CascadeType.ALL)
-//    @JoinColumn(name = "usuario_id", referencedColumnName = "id")
-//    private List<Telefone> telefones;
-//}
