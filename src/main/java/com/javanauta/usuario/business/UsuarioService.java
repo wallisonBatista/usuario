@@ -119,4 +119,5 @@ public class UsuarioService {
         Telefone telefoneEntity = telefoneRepository.save(telefone);
         return usuarioConverter.paraTelefoneDTO(telefoneEntity);
     }
+
 }
